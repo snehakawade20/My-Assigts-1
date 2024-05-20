@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.parent-cont{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.child-left-cont{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(66, 31, 240);
+    margin-right: 5px;
+    padding: 10px;
+
+}
+.left-top-cont{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(3, 102, 53);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.left-top-l-cont{
+    height: 100%;
+    width: 70%;
+    margin-right: 5px;
+    background-color: rgb(135, 191, 5);
+}
+
+.left-top-r-cont{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(198, 237, 102);
+    padding: 10px;
+}
+
+.r-top-cont{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(188, 131, 8);
+    margin-bottom: 5px;
+}
+
+.r-bottom-cont{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(153, 112, 17);
+}
+
+.left-bottom-cont{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(77, 211, 162);
+    padding: 10px;
+}
+
+.l-b-top-cont{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(244, 86, 7);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.l-b-t-left-cont{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(64, 67, 239);
+    margin-right: 5px;
+}
+
+.l-b-t-right-cont{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(46, 190, 234);
+}
+
+.l-b-bottom-cont{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(247, 145, 86);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.l-b-b-left-cont{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(212, 9, 117);
+    margin-right: 5px;
+}
+
+.l-b-b-mid-cont{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(232, 9, 180);
+}
+
+.l-b-b-right-cont{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(246, 103, 184);
+    margin-left: 5px;
+}
+
+.child-right-cont{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(90, 70, 239);
+
+}
